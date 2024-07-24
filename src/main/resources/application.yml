@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: reactive-demo
+  r2dbc:
+    url: r2dbc:postgresql://postgres:5432/postgres
+    username: postgres
+    password: postgres
+
+  sql:
+    init:
+      schema-locations: classpath:schema.sql
+      mode: always
+
+server:
+  port: 8080
