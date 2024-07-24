@@ -7,7 +7,7 @@ import org.springframework.test.context.jdbc.Sql;
 
 @SpringBootTest
 @ActiveProfiles("test")
-class CrudOpsReactiveWayApplicationTests {
+class ReactiveDemoApplicationTests {
 
     @Test
     void contextLoads() {

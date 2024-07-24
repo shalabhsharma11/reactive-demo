@@ -8,10 +8,10 @@ import org.springframework.web.reactive.config.EnableWebFlux;
 @SpringBootApplication
 @EnableWebFlux
 @EnableR2dbcRepositories
-public class CrudOpsReactiveWayApplication {
+public class ReactiveDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CrudOpsReactiveWayApplication.class, args);
+        SpringApplication.run(ReactiveDemoApplication.class, args);
     }
 
 }
